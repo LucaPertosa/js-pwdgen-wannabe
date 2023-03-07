@@ -20,6 +20,8 @@ const userPassword = userName + userSurname + userColor + passwordEndNumber ;
 console.log(userPassword);
 
 // Preparo il messaggio con il risultato
-const message = `La tua password insicurissima è ${userPassword}`
+const message = `La tua password insicurissima è ${userPassword}`;
 console.log(message);
+
 // Stampo il messaggio
+document.getElementById('user-password').innerHTML = message;
